@@ -1,0 +1,16 @@
+name: CI Workflow
+
+on: pull_request
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Primeira CI
+        run: echo Hello world
+
+      - name: o que tem aqui
+        run: echo $(ls)
+
+      - name: diretorio
+        run: echo $(pwd)
