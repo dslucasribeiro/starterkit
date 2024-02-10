@@ -12,7 +12,5 @@ def main():
         ui.display_results(result, error)
         
 
-        
-
 if __name__ == "__main__":
     main()
